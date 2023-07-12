@@ -77,7 +77,9 @@ Run the database container in the background
  $ docker-compose up -d
 ```
 
-After running these commands, the database container will be up and running in docker in the background. The [docker-compose.yml](https://github.com/maryamaljanabi/demo-project/blob/master/docker-compose.yml) file configures Adminer client to interact with the database. To access the seeded database through Adminer GUI, go to:
+After running these commands, the database container will be up and running in docker in the background. 
+The [docker-compose.yml]
+file configures Adminer client to interact with the database. To access the seeded database through Adminer GUI, go to:
 http://localhost:8080/
 
 And fill the following fields based on the values specified in the .env file for each key name (except the Server field).
